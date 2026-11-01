@@ -1,1 +1,7 @@
-a
+apiVersion: v1
+kind: ConfigMap
+metadata:
+  name: synergychat-web-configmap
+data:
+  WEB_PORT: "8080"
+  API_URL: "http://synchatapi.internal"
